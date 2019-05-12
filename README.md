@@ -14,11 +14,11 @@ Machine learning; Multi-label learning; Lazy learning; K-nearest neighbor; Drug 
 
 ## How it works
 
-![How the algorithm works](MLKNN.png)
+![How the algorithm works](png/MLKNN.png)
 
 ## Pseudo-Code
 
-![pseudo code](code.png)
+![pseudo code](png/code.png)
 
 ## About the R codes
 
