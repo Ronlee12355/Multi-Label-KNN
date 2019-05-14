@@ -2,8 +2,11 @@
 # train: matrix that contains features
 # test: test matrix, test should have the same label numbers like train
 # train.label: label matrix
+# k: the number of neighbor
+# smoothing: the Laplace smoothing
+# ignore.nearest: whether to ignore the nearest
 
-MLKNN<-function(train = NULL, train.label = NULL, test = NULL, k = 5, smoothing = 1, ignore.nearest=T){
+MLKNN<-function(train = NULL, train.label = NULL, test = NULL, k = 5, smoothing = 1, ignore.nearest = T){
   if(is.null(train) | is.null(test)){
     stop("train set and test set cannot be NULL")
   }
