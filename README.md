@@ -30,11 +30,11 @@ Machine learning; Multi-label learning; Lazy learning; K-nearest neighbor; Drug 
 
 **AveragePrecision.R**: *Average precision*: evaluates the average fraction of labels ranked above a particular label y ∈ *Y* which actually are in *Y*.   
 
-**Coverage.R**:*Coverage*: evaluates how far we need, on the average, to go down the list of labels in order to cover all the proper labels of the instance.    
+**Coverage.R**: *Coverage*: evaluates how far we need, on the average, to go down the list of labels in order to cover all the proper labels of the instance.    
 
 **OneError.R**: *One-error*: evaluates how many times the top-ranked label is not in the set of proper labels of the instance.     
 
-**RankingLoss.R**:*Ranking loss*: evaluates the average fraction of label pairs that are reversely ordered for the instance.   
+**RankingLoss.R**: *Ranking loss*: evaluates the average fraction of label pairs that are reversely ordered for the instance.   
 
 
 ## The Original Paper
