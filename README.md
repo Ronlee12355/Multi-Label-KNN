@@ -1,4 +1,4 @@
-# Multi-Lable-KNN
+# Multi-Label-KNN
 
 ## Introduction
 
