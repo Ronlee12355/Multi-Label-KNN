@@ -28,7 +28,7 @@ Machine learning; Multi-label learning; Lazy learning; K-nearest neighbor; Drug 
    
 **HammingLoss.R**: *Hamming loss*: evaluates how many times an instance– label pair is misclassified, i.e. a label not belonging to the in- stance is predicted or a label belonging to the instance is not predicted.    
 
-**AveragePrecision.R**:*Average precision*: evaluates the average fraction of labels ranked above a particular label y ∈ *Y* which actually are in *Y*.   
+**AveragePrecision.R**: *Average precision*: evaluates the average fraction of labels ranked above a particular label y ∈ *Y* which actually are in *Y*.   
 
 **Coverage.R**:*Coverage*: evaluates how far we need, on the average, to go down the list of labels in order to cover all the proper labels of the instance.    
 
